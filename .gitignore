@@ -1,0 +1,33 @@
+# Frontend
+node_modules/
+dist/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# AI datasets and models
+datasets/
+uploads/
+checkpoints/
+*.pth
+*.pt
+*.onnx
+
+# Build and cache
+build/
+.cache/
+.pytest_cache/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
